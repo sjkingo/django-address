@@ -1,4 +1,4 @@
-$(function(){
+jQuery( document ).ready(function( $ ) {
     $('input.address').each(function(){
         var self = $(this);
 	var cmps = $('#' + self.attr('name') + '_components');
